@@ -1,12 +1,29 @@
-# React + Vite
+# Fast React Pizza Co.
 
-# Pizza Delivery App
+A pizza ordering app with real-time order tracking, 
+built with React and React Router.
 
-Live Demo: [https://pizza-delivery-app-chi.vercel.app/]
+## Live Demo
+[(https://pizza-delivery-app-chi.vercel.app/)]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Browse pizza menu fetched from live REST API
+- Add pizzas to cart
+- GPS auto-fill address on order form
+- Priority order option
+- Real-time order status tracking (Preparing → On the way → Delivered)
+- Estimated delivery countdown timer
+- Unique order ID per order
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- React Router v6 (data loading, actions, forms)
+- Redux Toolkit (cart state management)
+- REST API integration
+- CSS3
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What I Learned
+- React Router v6 loaders and actions for data fetching
+- Redux Toolkit for global cart state
+- Integrating GPS/geolocation API
+- Real world REST API integration
